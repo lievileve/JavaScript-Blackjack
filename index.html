@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Blackjack</title>
+
+</head>
+<body>
+    <h1 class="title">Blackjack</h1>
+
+    <div id="game-container">
+        <div id="dealer">
+            <h2 class="heading">Dealer</h2>
+            <div class="hand">
+                <div id="dealerCards" class="hand-of-cards"></div>
+                <p class="score">Score: <span id="dealerScoreveld"></span></p>
+            </div>
+        </div>
+
+        <div id="player">
+            <h2 class="heading">Player</h2>
+            <div class="hand">
+                <div id="playerCards" class="hand-of-cards"></div>
+                <p class="score">Score: <span id="playerScoreveld"></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="buttons">
+        <h2 id="status"></h2>
+        <button id="deal">Deal</button>
+        <button id="fold">Fold</button>
+        <button id="reload">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
